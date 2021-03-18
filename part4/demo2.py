@@ -20,7 +20,7 @@ else:
     print("奇数")
 
 score = int(input("请输入成绩"))
-if score >= 90:
+if 90<=score<=100:
     print("优秀")
 elif score >=80 and score <90:
     print("优")
